@@ -1,0 +1,401 @@
+#VRML V2.0 utf8
+
+#VRML V2.0 utf8
+
+DEF	SanNha Transform {
+	translation -3 0 0
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box{
+				size 16 0.1 15
+			}
+			appearance Appearance {
+				textureTransform TextureTransform { 
+				      center 0 0
+				      rotation 0
+				      scale 4 4 
+			          translation 0 0 }
+			}
+		}
+	]
+}
+DEF Tuong1 Transform {
+	translation 5.05 4.95 -1.5
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box{
+				size 0.1 10 12
+			}
+			appearance Appearance {
+				material Material {
+					ambientIntensity .143
+					diffuseColor .91 .44 .35
+					specularColor .35 .14 0
+					shininess .13
+				}
+			}
+		}
+	]
+} 
+DEF	Tuong3 Transform {
+	translation -3 4.95 -7.45
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box{
+				size 16 10 0.1
+			}
+			appearance Appearance {
+				material Material {	   
+					diffuseColor .61 .61 .61
+					specularColor .77 .76 .76
+					ambientIntensity .14
+					shininess .9
+				}
+			}
+		}
+	]
+}
+DEF	Tuong4 Transform {
+	translation	4 7.95 4.55
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 2 4 0.1
+			}
+						appearance Appearance {
+				material Material {
+					diffuseColor 1 .45 .4
+					specularColor .69 .4 .42
+					ambientIntensity .153
+					shininess .9
+				}
+			}
+
+		}]
+}
+
+DEF Tuong5 Transform {
+	translation 3 4.95 6
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box{
+				size 0.1 10 3
+			}
+			appearance Appearance {
+				material Material {
+					ambientIntensity .153
+					diffuseColor 1 .45 .4
+					specularColor .69 .4 .42
+					shininess .9
+				}
+			}
+		}
+	]
+} 
+DEF Dem	Transform {
+	translation -5 0.5 -2.5
+	rotation 0 0 0 0
+	children [
+		Shape {
+			geometry Box{
+				size 10 1 10
+			}
+			appearance Appearance {
+				material Material {
+					ambientIntensity 0
+					diffuseColor 1 1 1
+				}
+			}
+		}
+	]
+}
+DEF	Goi1 Transform {
+	translation	-7 1 -6
+	rotation 0 0 1 0
+	children [
+	Shape {
+		geometry Box {
+			size 3 1 2
+		}
+	}]
+}
+DEF	Goi2 Transform {
+	translation	4 0 0
+	rotation 0 0 1 0
+	children [USE Goi1 ]
+}
+DEF	Tu1 Transform {
+	translation	5 3 -0.4
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 0.1 6 10
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+		}]
+}
+DEF	Tu2 Transform {
+	translation	4 3 -5.4
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 2 6 0.1
+			}
+						appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+
+		}]
+}
+DEF	Tu3 Transform {
+	translation	4 3 4.5
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 2 6 0.1
+			}
+						appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+
+		}]
+}
+DEF	NocTu Transform {
+	translation	4 6 -0.45
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 2 0.1 10
+			}
+						appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+
+		}]
+}
+DEF	ThanhChia1 Transform	{
+	translation	3.1 3 1.45
+	rotation 0 0 1 0
+	children [
+	Shape {
+		geometry Box {
+			size 0.1 6 0.1
+		}
+		appearance Appearance {
+			material Material {
+				ambientIntensity 0
+			}
+		}
+	}]
+}
+DEF	ThanhChia2 Transform {
+	translation	0 0 -3.1
+	rotation 0 0 1 0
+	children [USE ThanhChia1 ]
+}
+DEF	CuaTu1 Transform {
+	translation	3.1 3 3
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 0.1 6 3
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+		}
+		]
+}
+DEF	CuaTu2 Transform {
+	translation	0 0 -3.1
+	rotation 0 0 1 0
+	children [USE CuaTu1 ]
+}
+DEF	CuaTu3 Transform {
+	translation	3.1 3 -3.55
+	rotation 0 0 1 0
+	children [
+	Shape {
+		geometry Box {
+			size 0.1 6 3.65
+		}
+		appearance Appearance {
+				material Material {
+					diffuseColor 0 .35 .25
+					specularColor 0 .31 .36
+					ambientIntensity .0533
+					shininess .32
+				}
+			}
+	}]
+}
+DEF	TayNamCua1 Transform {
+	translation	3 3 2
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 0.2 0.5 .02
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .51 .17 .06
+					specularColor .53 .53 .53
+					ambientIntensity .06
+					shininess .93
+				}
+			}
+		}]
+}
+DEF	TayNamCua2 Transform {
+	translation	0 0 -1.2
+	rotation 0 0 1 0
+	children [USE TayNamCua1 ]
+}
+DEF	TayNamCua3 Transform {
+	translation	0 0 -4.3
+	rotation 0 0 1 0
+	children [USE TayNamCua1 ]
+}
+DEF BanKinh Transform {
+	translation	4 1 -6.4
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 2 0.1 2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .482 .8 .8
+					ambientIntensity 0
+				}
+			}
+		}]
+}
+DEF	Cot1 Transform {
+	translation	-10.9 1.2 5
+	rotation 0 0 1 0
+	children [
+		Shape {
+			geometry Box {
+				size 0.2 2.5 0.2
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .24 .24 .24
+					specularColor .3 .25 .3
+					ambientIntensity .06
+					shininess .05
+				}	
+}	
+		}]
+}
+DEF	Cot2 Transform {
+	translation	0 0 -1
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot3 Transform {
+	translation	0 0 -2
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot4 Transform {
+	translation	0 0 -3
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot5 Transform {
+	translation	0 0 -4
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot6 Transform {
+	translation	0 0 -5
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot7 Transform {
+	translation	0 0 -6
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot8 Transform {
+	translation	0 0 -7
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot9 Transform {
+	translation	0 0 -8
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot10 Transform {
+	translation	0 0 -9
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot11 Transform {
+	translation	0 0 -10
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	Cot12 Transform {
+	translation	0 0 -11
+	rotation 0 0 1 0
+	children [USE Cot1 ]
+}
+DEF	ThanhNgang Transform {
+	translation	-10.9 2.4 -1.15
+	rotation 0 0 1 0
+	children [Shape {
+		geometry Box {
+			size 0.2 0.2 12.5
+		}appearance	Appearance {
+			material Material {
+				diffuseColor .24 .24 .24
+				specularColor .3 .25 .3
+				ambientIntensity .06
+				shininess .05
+			}
+		}
+	}]
+}
